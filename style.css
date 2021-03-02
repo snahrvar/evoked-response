@@ -497,6 +497,11 @@ footer {
     margin: 20px 0;
   }
 }
+
+.science-img {
+  float: right;
+}
+
 @media screen and (max-width: 414px) {
   .header-bottom .banner-wrap {
     top: 10%;
@@ -521,5 +526,8 @@ footer {
   .header-bottom .banner-contents p {
     font-size: 10px;
     margin: 4px 0;
+  }
+  .science-img {
+    border: 10px solid red;
   }
 }
