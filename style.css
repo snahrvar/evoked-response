@@ -503,6 +503,11 @@ form {
   margin-bottom: 30px;
 }
 
+.form {
+  margin: auto;
+  width: 60%;
+}
+
 .form-control:focus {
   border-color: #fd3470;
   box-shadow: 0 0 0 0.2rem rgba(204, 31, 117, 0.25);
