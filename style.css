@@ -516,7 +516,9 @@ form {
 .contact-section {
   background-color: #ededed;
 }
-
+input {
+  height: 50px;
+}
 @media screen and (max-width: 414px) {
   .header-bottom .banner-wrap {
     top: 10%;
