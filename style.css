@@ -498,8 +498,14 @@ footer {
   }
 }
 
-.science-img {
-  float: right;
+form {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.form-control:focus {
+  border-color: #fd3470;
+  box-shadow: 0 0 0 0.2rem rgba(204, 31, 117, 0.25);
 }
 
 @media screen and (max-width: 414px) {
