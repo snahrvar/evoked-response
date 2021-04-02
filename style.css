@@ -512,6 +512,13 @@ form {
   border-color: #fd3470;
   box-shadow: 0 0 0 0.2rem rgba(204, 31, 117, 0.25);
 }
+#articles {
+  display: flex;
+  justify-content: space-around;
+}
+.articleLogo {
+  width: 100px;
+}
 
 .contact-section {
   background-color: #ededed;
