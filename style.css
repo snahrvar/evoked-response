@@ -188,6 +188,14 @@
   background-repeat: no-repeat;
   background-position: left 7px;
 }
+.adams-accomplishments p {
+  font-size: 17px;
+}
+
+#title {
+  padding-bottom: 50px;
+}
+
 .features-holder {
   padding: 50px 0px;
 }
@@ -515,9 +523,10 @@ form {
 #articles {
   display: flex;
   justify-content: space-around;
+  padding: 30px 0 30px;
 }
 .articleLogo {
-  width: 100px;
+  width: 150px;
 }
 
 .contact-section {
