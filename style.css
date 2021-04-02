@@ -192,6 +192,15 @@
   font-size: 17px;
 }
 
+.testimonialImage {
+  width: 350px;
+}
+
+.testimonial {
+  font-size: 18px;
+  line-height: 50px;
+}
+
 #title {
   padding-bottom: 50px;
 }
