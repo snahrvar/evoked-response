@@ -513,6 +513,10 @@ form {
   box-shadow: 0 0 0 0.2rem rgba(204, 31, 117, 0.25);
 }
 
+#adampic {
+  border-radius: 50%;
+}
+
 .contact-section {
   background-color: #ededed;
 }
