@@ -197,12 +197,15 @@
 }
 
 .testimonialImage {
-  width: 350px;
+  width: 200px;
 }
 
 .testimonial {
   font-size: 18px;
-  line-height: 50px;
+  line-height: 30px;
+}
+#morescience {
+  margin: 0 auto;
 }
 
 .sciencetitle {
@@ -542,9 +545,8 @@ form {
   padding: 30px 0 30px;
 }
 .articleLogo {
-  width: 150px;
+  width: 100px;
 }
-
 .contact-section {
   background-color: #ededed;
 }
