@@ -547,6 +547,14 @@ form {
 .articleLogo {
   width: 100px;
 }
+.science-section {
+  padding-bottom: 100px;
+}
+
+.testimonial-section {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .contact-section {
   background-color: #ededed;
 }
