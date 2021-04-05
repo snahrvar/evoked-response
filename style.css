@@ -178,8 +178,22 @@
   margin: 20px 0px;
 }
 .story-holder {
-  padding: 40px 0px;
+  padding: 80px 0px;
 }
+.science-content {
+  font-size: 17px;
+}
+
+.science-content ul li {
+  margin-left: 20px;
+  font-size: 17px;
+  color: #000000;
+  padding: 0px 0px 30px 30px;
+  background-image: url("img/icons/list-arrow.png");
+  background-repeat: no-repeat;
+  background-position: left 7px;
+}
+
 .story-contents ul li {
   font-size: 17px;
   color: #000000;
@@ -190,6 +204,7 @@
 }
 
 .story-contents {
+  padding-top:40px;
   font-size: 17px;
 }
 .adams-accomplishments p {
@@ -197,18 +212,18 @@
 }
 
 .testimonialImage {
-  width: 150px;
+  width: 120px;
 }
 
 .testimonial {
-  line-height: 30px;
+  line-height: 26px;
 }
 #morescience {
   margin: 0 auto;
 }
 
 .sciencetitle {
-  padding-bottom: 15px;
+  padding-bottom: 40px;
 }
 #title {
   padding-bottom: 50px;
@@ -218,10 +233,10 @@
   padding: 50px 0px;
 }
 .features-contents {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .features-wrap {
-  margin: 70px 0px;
+  margin: 40px 0px;
 }
 .features-details {
   margin-top: 60px;
@@ -332,7 +347,7 @@ footer {
     font-size: 30px;
   }
   .applications-holder {
-    padding: 40px 0px;
+    padding: 55px 0px;
   }
   .applications-heading p {
     font-size: 12px;
@@ -353,8 +368,13 @@ footer {
     font-size: 14px;
     margin: 10px 0px;
   }
+
+  .science-section{
+    padding: 40px 0px;
+  }
+
   .story-holder {
-    padding: 20px 0px;
+    padding: 80px 0px;
   }
   .story-img img {
     width: 300px;
