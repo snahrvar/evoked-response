@@ -542,6 +542,11 @@ footer {
   .foot-common h5 {
     margin: 20px 0;
   }
+
+  #articles {
+    display: block;
+    padding: 30px 0 30px;
+  }
 }
 
 form {
