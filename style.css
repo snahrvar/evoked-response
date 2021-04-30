@@ -204,7 +204,7 @@
 }
 
 .story-contents {
-  padding-top:40px;
+  padding-top: 40px;
   font-size: 17px;
 }
 .adams-accomplishments p {
@@ -213,6 +213,9 @@
 
 .testimonialImage {
   width: 120px;
+}
+.mohitImage {
+  width: 150px;
 }
 
 .testimonial {
@@ -369,7 +372,7 @@ footer {
     margin: 10px 0px;
   }
 
-  .science-section{
+  .science-section {
     padding: 40px 0px;
   }
 
