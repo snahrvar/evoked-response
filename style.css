@@ -2,7 +2,12 @@
   font-family: "Roboto";
 }
 .header-top {
-  padding: 20px 0px;
+  position:fixed !important;
+  background-color:white;
+  z-index:99;
+  width:100%;
+  padding-top:0;
+  padding-bottom:0;
 }
 /*******MAIN MENU*********/
 .mainmenu .navbar {
@@ -471,8 +476,6 @@ footer {
 
 @media screen and (max-width: 767px) {
   .header-top {
-    padding: 10px 0px;
-    position: relative;
   }
   .login-butn {
     margin-top: 0px !important;
