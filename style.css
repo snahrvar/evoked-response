@@ -337,6 +337,29 @@ footer {
   text-align:center;
 }
 
+.jobs:hover {
+  cursor:pointer;
+  color: #7e7e7e;
+}
+
+.job-btn {
+  background-color:#6d2aff !important;
+  border-color:#6d2aff !important;
+}
+.job-btn:hover{
+  background-color:#7c40ff !important;
+}
+
+.modal-body ul li {
+  margin-left: 20px;
+  font-size: 17px;
+  color: #000000;
+  padding: 0px 0px 30px 30px;
+  background-image: url("img/icons/list-arrow.png");
+  background-repeat: no-repeat;
+  background-position: left 7px;
+}
+
 /*RESPONSIVE*/
 @media screen and (max-width: 1270px) {
   .navbar-brand {
