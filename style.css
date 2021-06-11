@@ -324,6 +324,18 @@ footer {
   margin-right: 10px;
 }
 
+.carousel-control-prev-icon {
+  color:black;
+}
+.carousel-control-next-icon {
+  color:black;
+}
+.carousel-item {
+  padding-bottom:50px;
+  margin-bottom:50px;
+  text-align:center;
+}
+
 /*RESPONSIVE*/
 @media screen and (max-width: 1270px) {
   .navbar-brand {
@@ -477,6 +489,7 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+
   .header-top {
   }
   .login-butn {
