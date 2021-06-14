@@ -366,6 +366,12 @@ footer {
 }
 
 /*RESPONSIVE*/
+@media screen and (min-width: 1023px) {
+  .science-section {
+    padding-top:6rem;
+  }
+}
+
 @media screen and (max-width: 1270px) {
   .navbar-brand {
     width: 200px;
