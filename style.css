@@ -337,9 +337,14 @@ footer {
   text-align:center;
 }
 
+.jobs {
+  color: #333333;
+  text-decoration:none;
+}
+
 .jobs:hover {
-  cursor:pointer;
-  color: #7e7e7e;
+  color: #7e7e7e !important;
+  text-decoration: none;
 }
 
 .job-btn {
