@@ -365,6 +365,23 @@ footer {
   background-position: left 7px;
 }
 
+.img-container {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right:0.5rem;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
 /*RESPONSIVE*/
 @media screen and (min-width: 1023px) {
   .science-section {
