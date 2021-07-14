@@ -225,7 +225,11 @@
   width: 150px;
   border-radius: 50%;
 }
-
+.logoImage {
+  max-height: 50px;
+  width: auto;
+  padding-bottom: 15px;
+}
 .testimonial {
   line-height: 26px;
 }
