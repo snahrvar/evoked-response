@@ -230,6 +230,10 @@
   width: auto;
   padding-bottom: 15px;
 }
+.neurosityImage {
+  max-height: 50px;
+  width: auto;
+}
 .testimonial {
   line-height: 26px;
 }
