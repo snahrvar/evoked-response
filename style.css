@@ -282,7 +282,23 @@
 footer {
   background-color: #333333;
   padding: 60px 0px;
+  color: #fff;
+  line-height: 30px;
 }
+.footer h3 {
+  font-weight: 700;
+  padding: 0px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.footer h5 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
 .foot-social ul {
   margin: 35px 0px;
 }

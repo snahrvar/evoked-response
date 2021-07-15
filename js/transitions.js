@@ -7,6 +7,14 @@ $(".application-button").click(function () {
   );
 });
 
+$(".ourScience-button").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#ourScience-holder").offset().top,
+    },
+    1000
+  );
+});
 $(".brainwave-button").click(function () {
   $("html, body").animate(
     {

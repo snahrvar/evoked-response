@@ -45,15 +45,14 @@
                 <li class="nav-item application-button">
                   <a class="nav-link" href="#">Application</a>
                 </li>
+                <li class="nav-item ourScience-button">
+                   <a class="nav-link" href="#">Our Science</a>
+                </li>
                 <li class="nav-item adam-button">
                   <a class="nav-link" href="#">Adam's Story</a>
                 </li>
                 <li class="nav-item brainwave-button">
                   <a class="nav-link" href="#">Neuro-musical Synchronization</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="science.html">Science <i class="fa fa-arrow-circle-right"></i>
-                  </a>
                 </li>
                 </a>
               </ul>
@@ -270,7 +269,7 @@
       </div>
     </div>
 
-    <div class="story-holder science-section">
+    <div id="ourScience-holder" class="story-holder science-section">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -715,7 +714,7 @@
             </div>
             <div class="row story-contents" style="margin-top:0 !important;padding-top:0 !important;text-align:center">
                 <div class="col-md-4">
-                  <div style="font-size: 16px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                  <div style="font-size: 16px; line-height: 50px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
                     <!-- <a href="https://soundcloud.com/chris-kukla-293309559" title="Evoked Response" target="_blank" style="color: #CCCCCC; text-decoration: none;">
                       Evoked Response
                     </a>  -->
@@ -726,7 +725,7 @@
                   <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1087432138%3Fsecret_token%3Ds-66UUZHLwL0k&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </div>
                 <div class="col-md-4">
-                  <div style="font-size: 16px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                  <div style="font-size: 16px; line-height: 50px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
                     <!-- <a href="https://soundcloud.com/chris-kukla-293309559" title="Evoked Response" target="_blank" style="color: #CCCCCC; text-decoration: none;">
                       Evoked Response
                     </a>  -->
@@ -738,7 +737,7 @@
                   
                 </div>
                 <div class="col-md-4">
-                  <div style="font-size: 16px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                  <div style="font-size: 16px; line-height: 50px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
                     <!-- <a href="https://soundcloud.com/chris-kukla-293309559" title="Evoked Response" target="_blank" style="color: #CCCCCC; text-decoration: none;">
                       Evoked Response
                     </a>  -->
@@ -779,12 +778,12 @@
     <div class="container">
       <div class="features-heading heading text-center">
         <h1>Get in touch to learn more</h1>
+        <button id='calendly' type="submit" class="btn banner-btn">Book a Meeting</button>
       </div>
       <div class="features-contents">
         <div class="features-wrap">
           <div class="row">
-
-            <div class="form">
+            <!-- <div class="form">
 
               <form accept-charset="UTF-8" action="https://www.formbackend.com/f/9e9d02e617362d32" method="post">
                 <div class="form-group">
@@ -802,18 +801,67 @@
 
                 <button type="submit" class="btn banner-btn">Submit</button>
               </form>
-            </div>
+            </div> -->
 
           </div>
         </div>
       </div>
     </div>
   </div>
-
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script type="text/javascript" src="js/transitions.js"></script>
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script>
+      Calendly.initInlineWidget({
+        url: 'https://calendly.com/YOUR_LINK/30min',
+        parentElement: document.getElementById('calendly'),
+        prefill: {
+        }   
+      });
+  </script> -->
 </body>
-
+<footer>
+    <div class="footer">
+        <div class="container"> 
+        <div class="row">
+          <div class='col-md-4'>
+            <h3>Evoked Response</h3>
+            <p>THE NEW FRONTIER OF MUSIC AND THE BRAIN</p>
+          </div>
+          <div class='col-md-2'>
+            <h5 >Explore</h5>
+            <!-- animation not works, need to rework -->
+            <ul class="navbar-nav">
+              <li class="application-button"><a href="#applications-holder">Application</a></li>
+              <li class="ourScience-button"><a href="#ourScience-holder">Our Science</a></li>
+              <li class="adam-button" ><a href="#adam-holder">Adam's Story</a></li>
+              <li class="brainwave-button"><a href="#brainwave-holder">Neuro-musical Synchronization</a></li>
+            </ul>
+          </div>
+          <div class='col-md-3'>
+            <h5>Visit</h5>
+            <p>2620 Misener Cres, Mississauga, ON, L6K 1N1 </p>
+            <p></p>
+            <h5>New Business</h5>
+            <p>example@example.com</p>
+            <p>111.111.1111</p>
+          </div>
+          <div class='col-md-2'>
+            <h5>Follow</h5>
+            <p>Instagram</p>
+            <p>Twitter</p>
+            <p>LinkedIn</p>
+          </div>
+          <div class='col-md-1'>
+            <h5>Legal</h5>
+            <p>Terms</p>
+            <p>Privacy</p>
+          </div>
+        </div> 
+        <p>&copy; 2020, All Rights Reserved</a></p>
+       </div>  
+    </div>   
+  </footer>
 </html>
