@@ -9,6 +9,15 @@
   padding-top:0;
   padding-bottom:0;
 }
+.calendly-weigit-box{
+  width:100%;
+  position:fixed;
+  padding-top:0;
+  padding-bottom:0;
+}
+.calendly-weigit-button{
+  float:right;  
+}
 /*******MAIN MENU*********/
 .mainmenu .navbar {
   padding: 0px;
@@ -247,7 +256,6 @@
 #title {
   padding-bottom: 50px;
 }
-
 .features-holder {
   padding: 50px 0px;
 }
