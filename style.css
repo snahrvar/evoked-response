@@ -10,10 +10,13 @@
   padding-bottom:0;
 }
 .calendly-weigit-box{
+  position:fixed !important;
   width:100%;
-  position:fixed;
+  margin-top:10px;
+  bottom:30px;
   padding-top:0;
   padding-bottom:0;
+  z-index:100;
 }
 .calendly-weigit-button{
   float:right;  
