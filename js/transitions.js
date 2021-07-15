@@ -33,6 +33,14 @@ $(".adam-button").click(function () {
   );
 });
 
+$(".tryOurMusic-button").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#tryOurMusic-holder").offset().top,
+    },
+    1000
+  );
+});
 const scrollElements = document.querySelectorAll(".js-scroll");
 
 const elementInView = (el, dividend = 1) => {
