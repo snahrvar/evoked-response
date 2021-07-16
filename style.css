@@ -238,6 +238,7 @@
   border-radius: 50%;
 }
 .logoImage {
+  margin-top:10px;
   max-height: 50px;
   width: auto;
   padding-bottom: 15px;
@@ -248,6 +249,7 @@
 }
 .testimonial {
   line-height: 26px;
+  text-align: left;
 }
 #morescience {
   margin: 0 auto;
@@ -526,7 +528,7 @@
     margin: 0px 0px 0px 0px;
   }
   .mainmenu li.nav-item {
-    margin: 10px 0px 0px 9px;
+    margin: 10px 0px 0px 6px;
   }
   .mainmenu li.nav-item a.nav-link {
     font-size: 11px;
@@ -574,6 +576,10 @@
   }
   footer {
     padding: 40px 0px;
+  }
+  .footer   {
+    font-size: 12px;
+    line-height: 20px;
   }
 }
 
