@@ -9,15 +9,27 @@
   padding-top:0;
   padding-bottom:0;
 }
+.calendly-weigit-box{
+  position:fixed !important;
+  width:100%;
+  margin-top:10px;
+  bottom:30px;
+  padding-top:0;
+  padding-bottom:0;
+  z-index:100;
+}
+.calendly-weigit-button{
+  float:right;  
+}
 /*******MAIN MENU*********/
 .mainmenu .navbar {
   padding: 0px;
 }
 .mainmenu .navbar-nav {
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 10px;
 }
 .mainmenu li.nav-item {
-  margin: 15px 0px 0px 50px;
+  margin: 15px 0px 0px 30px;
 }
 .mainmenu li.nav-item a.nav-link {
   font-size: 16px;
@@ -247,7 +259,6 @@
 #title {
   padding-bottom: 50px;
 }
-
 .features-holder {
   padding: 50px 0px;
 }
@@ -279,9 +290,26 @@
   margin: 0px;
   line-height: 1.9;
 }
-footer {
+.footer {
   background-color: #333333;
   padding: 60px 0px;
+  color: #fff;
+  line-height: 30px;
+}
+
+.footer h3 h5 {
+  color: #fff;
+  font-weight: 700;
+  padding: 0px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.footer li.nav-item a.nav-link {
+  color: #fff;
+}
+.footer .nav-item a.nav-link:focus,
+.footer .nav-item a.nav-link:hover {
+  color: #fd3470;
 }
 .foot-social ul {
   margin: 35px 0px;
