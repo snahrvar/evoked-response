@@ -7,6 +7,14 @@ $(".application-button").click(function () {
   );
 });
 
+$(".ourScience-button").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#ourScience-holder").offset().top,
+    },
+    1000
+  );
+});
 $(".brainwave-button").click(function () {
   $("html, body").animate(
     {
@@ -25,6 +33,22 @@ $(".adam-button").click(function () {
   );
 });
 
+$(".tryOurMusic-button").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#tryOurMusic-holder").offset().top,
+    },
+    1000
+  );
+});
+$(".calendly-weigit-button").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#calendly-holder").offset().top - 100,
+    },
+    1000
+  );
+});
 const scrollElements = document.querySelectorAll(".js-scroll");
 
 const elementInView = (el, dividend = 1) => {
