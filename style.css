@@ -26,6 +26,10 @@ body {
 .calendly-weigit-button{
   float:right;  
 }
+.navbar-brand {
+  display:block;
+  width:200px;
+}
 /*******MAIN MENU*********/
 .mainmenu .navbar {
   padding: 0px;
@@ -532,6 +536,7 @@ body {
 
 @media screen and (max-width: 1023px) {
   .navbar-brand {
+    display:block;
     width: 150px;
   }
   .mainmenu .navbar-nav {
@@ -547,8 +552,12 @@ body {
     font-size: 12px;
     padding: 4px 10px;
   }
-  .header-bottom .banner-wrap {
+  .banner-wrap {
     top: 20%;
+  }
+  .header-bottom {
+    position: relative;
+    padding-top:3rem;
   }
   .header-bottom .banner-contents {
     width: 400px;
@@ -729,7 +738,6 @@ input {
     right: 70px;
   }
   .carousel-control-prev-icon{
-    background-color:red;
     display: none
   }
   .carousel-control-next-icon{
@@ -738,7 +746,6 @@ input {
 }
 @media screen and (max-width: 360px) {
   .carousel-control-prev{
-    background-color:red;
     display: none
   }
   .carousel-control-next{
