@@ -1,6 +1,11 @@
 * {
   font-family: "Roboto";
 }
+body {
+  margin: 0; 
+  height: 100%; 
+  overflow-x: hidden;
+}
 .header-top {
   position:fixed !important;
   background-color:white;
@@ -723,8 +728,22 @@ input {
   .login-butn {
     right: 70px;
   }
+  .carousel-control-prev-icon{
+    background-color:red;
+    display: none
+  }
+  .carousel-control-next-icon{
+    display: none
+  }
 }
 @media screen and (max-width: 360px) {
+  .carousel-control-prev{
+    background-color:red;
+    display: none
+  }
+  .carousel-control-next{
+    display: none
+  }
   .header-bottom .banner-contents {
     width: auto;
     padding: 5px;
