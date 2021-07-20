@@ -315,11 +315,11 @@ body {
   text-transform: uppercase;
   line-height: 30px;
 }
-.footer li.nav-item a.nav-link {
+.footer a {
   color: #fff;
 }
-.footer .nav-item a.nav-link:focus,
-.footer .nav-item a.nav-link:hover {
+.footer a.footer-link:focus,
+.footer a.footer-link:hover {
   color: #fd3470;
 }
 .foot-social ul {
