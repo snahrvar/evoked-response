@@ -315,6 +315,15 @@ body {
   text-transform: uppercase;
   line-height: 30px;
 }
+.footer ul.footer-link-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer ul.footer-link-list li {
+  margin: 0;
+  padding-bottom: 10px;
+}
 .footer a {
   color: #fff;
 }
