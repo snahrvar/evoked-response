@@ -29,45 +29,43 @@
 
 <body>
     <header>
-        <div class="header-top">
+        <div class="header-top" style = "box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.3) ">
             <div class="container">
-                <div class="mainmenu">
-                    <nav class="navbar navbar-expand-md" role="navigation">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="img/header-logo.png" class="img-fluid" alt="logo" style="width:30%;"/>
-                        </a>
-                        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
-                            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation" id="nav-toggle">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item application-button">
-                                    <a class="nav-link" href="index.html#applications-holder">Application</a>
-                                </li>
-                                <li class="nav-item adam-button">
-                                    <a class="nav-link" href="index.html#adam-holder">Adam's Story</a>
-                                </li>
-                                <li class="nav-item brainwave-button">
-                                    <a class="nav-link" href="index.html#brainwave-holder">Neuro-musical
-                                        Synchronization</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="science.html">Science <i
-                                            class="fa fa-arrow-circle-right"></i>
-                                </li>
-                                </a>
-                            </ul>
-
-                        </div>
-                    </nav>
-                </div>
+              <div class="mainmenu">
+                <nav class="navbar navbar-expand-md" role="navigation">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="img/header-logo.png" class="img-fluid" alt="logo" style="width:70%;"/>
+                  </a>
+                  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="nav-toggle">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item application-button">
+                        <a class="nav-link" href="index.html#applications-holder">Application</a>
+                      </li>
+                      <li class="nav-item ourScience-button">
+                         <a class="nav-link" href="index.html#ourScience-holder">Our Science</a>
+                      </li>
+                      <li class="nav-item adam-button">
+                        <a class="nav-link" href="index.html#adam-holder">Adam's Story</a>
+                      </li>
+                      <li class="nav-item brainwave-button">
+                        <a class="nav-link" href="index.html#brainwave-holder">Neuro-musical Synchronization</a>
+                      </li>
+                      <li class="nav-item tryOurMusic-button">
+                        <a class="nav-link" href="index.html#tryOurMusic-holder">Try Our Music</a>
+                      </li>
+                      </a>
+                    </ul>
+                  </div>
+               </nav>
             </div>
+          </div>
         </div>
-
-
-        <div class="science-section js-scroll fade-in-bottom">
+    </header>
+        <div class="science-section fade-in-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -91,7 +89,7 @@
             </div>
         </div>
 
-        <div class="science-section js-scroll fade-in-bottom">
+        <div class="science-section fade-in-bottom">
             <div class="container">
                 <div class="row">
 
@@ -132,7 +130,7 @@
             </div>
         </div>
 
-        <div class="science-section js-scroll fade-in-bottom">
+        <div class="science-section fade-in-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -173,7 +171,7 @@
             </div>
         </div>
 
-        <div class="science-section js-scroll fade-in-bottom">
+        <div class="science-section fade-in-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -209,43 +207,69 @@
                     <div class="features-heading heading text-center">
                         <h1>Get in touch to learn more</h1>
                     </div>
-                    <div class="features-contents">
-                        <div class="features-wrap">
-                            <div class="row">
-
-                                <div class="form">
-
-                                    <form accept-charset="UTF-8" action="https://www.formbackend.com/f/9e9d02e617362d32"
-                                        method="post">
-                                        <div class="form-group">
-                                            <input name="Name" type="text" class="form-control" id="name"
-                                                placeholder="Enter name" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <input name="Email" type="email" class="form-control" id="email"
-                                                placeholder="Enter email" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <input name="Number" type="tel" class="form-control" id="number"
-                                                placeholder="Enter phone number" required>
-                                        </div>
-
-                                        <button type="submit" class="btn banner-btn">Submit</button>
-                                    </form>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/evokedresponse/30min?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                    <!-- Calendly inline widget end -->
                 </div>
             </div>
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-            <script type="text/javascript" src="js/transitions.js"></script>
+            <!-- <script type="text/javascript" src="js/transitions.js"></script> -->
             <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
             <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        </div>
 </body>
+<footer>
+    <div class="footer">
+        <div class="container">
+        <div class="row">
+          <div class='col-md-3'>
+            <!-- <h3>Evoked Response</h3> -->
+            <img src="img/footer-logo.png" class="img-fluid" alt="logo" style="width:70%;"/>
+            <br><br/>
+            <p>THE NEW FRONTIER OF MUSIC AND THE BRAIN</p>
+          </div>
+          <div class='col-md-2'>
+            <h5 >Explore</h5>
+            <ul class="footer-link-list">
+              <li class="nav-item application-button"><a class="footer-link" href="index.html#applications-holder">Application</a></li>
+              <li class="nav-item ourScience-button"><a class="footer-link" href="index.html#ourScience-holder">Our Science</a></li>
+              <li class="nav-item adam-button"><a class="footer-link" href="index.html#adam-holder">Adam's Story</a></li>
+              <li class="nav-item brainwave-button"><a class="footer-link" href="index.html#brainwave-holder">Neuro-musical Synchronization</a></li>
+              <li class="nav-item tryOurMusic-button"><a class="footer-link" href="index.html#tryOurMusic-holder">Try Our music</a></li>
+            </ul>
+          </div>
+          <div class='col-md-3'>
+            <h5>Visit</h5>
+            <p>3130 North Lake Shore Dr. Chicago, IL 60657</p>
+            <h5>New Business</h5>
+            <p>info@evokedresponse.com</p>
+            <p>1-888-345-0670</p>
+          </div>
+          <div class='col-md-2'>
+            <h5>Follow</h5>
+            <ul class="footer-link-list">
+              <li><a class="footer-link" href="https://www.linkedin.com/company/evokedresponse" target="_blank">LinkedIn</a></li>
+              <li><a class="footer-link" href="https://www.facebook.com/evokedresponseneuroscience" target="_blank">Facebook</a></li>
+              <li><a class="footer-link" href="https://www.instagram.com/evokedresponse/" target="_blank">Instagram</a></li>
+            </ul>
+          </div>
+          <div class='col-md-2'>
+            <h5>Legal</h5>
+            <ul class="footer-link-list">
+              <li><a class="footer-link" href="./documents/Website Terms of Use.pdf"  download target="_blank">Terms of Use</a></li>
+              <li><a class="footer-link" href="./documents/Online Privacy Policy.pdf"  download target="_blank">Privacy policy</a></li>
+            </ul>
+          </div>
 
+       </div>
+       <div class="row">
+          <div class='col-md-3'>
+            <p><br></br>&copy; 2020, All Rights Reserved</p>
+          <div class='col-md-3'>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/transitions.js"></script>
+  </footer>
 </html>
