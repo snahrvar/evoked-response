@@ -30,6 +30,19 @@ body {
   display:block;
   width:200px;
 }
+/*******POPUP*********/
+.form-popup {
+  display:none;
+  position:fixed;
+  top: 100px;
+  margin-left:20vw;
+  width:60%;
+  border: 3px solid #f1f1f1;
+  padding:40px;
+  z-index: 1000;
+  background-color: white;
+}
+ 
 /*******MAIN MENU*********/
 .mainmenu .navbar {
   padding: 0px;

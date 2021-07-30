@@ -40,6 +40,14 @@
     gtag('js', new Date());
     gtag('config', 'G-B5CY7K7069');
   </script>
+  <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+ </script>
 </head>
 
 <body>
@@ -96,10 +104,44 @@
       </div>
     </div>
   </header>
-  <div class="calendly-weigit-box">
-     <button class="btn banner-btn calendly-weigit-button">Get in touch</button>
+  <div class="calendly-weigit-box" >
+     <button class="btn banner-btn calendly-weigit-button" onclick="openForm()">Get in touch</button>
   </div>
-  <!-- *****remove for now ***** -->
+  <div class="form-popup" id="myForm">
+    <div class="container form-container">
+      <div class="features-heading heading text-center">
+        <h1>Get in touch to learn more</h1>
+      </div>
+      <div class="features-contents">
+        <div class="features-wrap">
+          <div class="row">
+
+            <div class="form">
+
+              <form accept-charset="UTF-8" action="https://www.formbackend.com/f/9e9d02e617362d32" method="post">
+                <div class="form-group">
+                  <input name="Name" type="text" class="form-control" id="name" placeholder="Enter name" required>
+                </div>
+
+                <div class="form-group">
+                  <input name="Email" type="email" class="form-control" id="email" placeholder="Enter email" required>
+                </div>
+
+                <div class="form-group">
+                  <input name="Number" type="tel" class="form-control" id="number" placeholder="Enter phone number"
+                    required>
+                </div>
+                <button type="submit" class="btn banner-btn" onclick="closeForm()">Submit</button>
+                <button class="btn banner-btn" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- *****remove testimonial for now ***** -->
   <!-- <div id="testimonial-carousel" class="holder">
     <div class="features-holder contact-section testimonial-section" style="height:250px;">
       <div class="features-heading heading text-center js-scroll fade-in-bottom" style="margin-bottom:2rem">
@@ -179,6 +221,7 @@
       </div>
     </div>
   </div> -->
+
 
   <div id="applications-holder" class="holder">
     <div class="applications-holder">
@@ -714,8 +757,8 @@
       </div>
     </div>
   </div>
-
-  <div id="tryOurMusic-holder" class="story-holder science-section js-scroll fade-in-bottom">
+   <!-- *****remove music for now ***** -->
+  <!-- <div id="tryOurMusic-holder" class="story-holder science-section js-scroll fade-in-bottom">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -726,9 +769,6 @@
             <div class="row story-contents" style="margin-top:0 !important;padding-top:0 !important;text-align:center">
                 <div class="col-md-4">
                   <div style="font-size: 16px; line-height: 50px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                    <!-- <a href="https://soundcloud.com/chris-kukla-293309559" title="Evoked Response" target="_blank" style="color: #CCCCCC; text-decoration: none;">
-                      Evoked Response
-                    </a>  -->
                     <a href="https://soundcloud.com/chris-kukla-293309559/evoked-response-ambient-productivity/s-66UUZHLwL0k" title="Evoked Response Ambient Productivity" target="_blank" style="color: #CCCCCC; text-decoration: none;">
                        Ambient Productivity(30min)
                     </a>
@@ -737,9 +777,6 @@
                 </div>
                 <div class="col-md-4">
                   <div style="font-size: 16px; line-height: 50px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                    <!-- <a href="https://soundcloud.com/chris-kukla-293309559" title="Evoked Response" target="_blank" style="color: #CCCCCC; text-decoration: none;">
-                      Evoked Response
-                    </a>  -->
                     <a href="https://soundcloud.com/chris-kukla-293309559/evoked-response-lofi-productivity/s-ifxjbgCLzzz" title="Evoked Response Lofi Productivity" target="_blank" style="color: #CCCCCC; text-decoration: none;">
                       Lofi Productivity(30min)
                     </a>
@@ -749,9 +786,6 @@
                 </div>
                 <div class="col-md-4">
                   <div style="font-size: 16px; line-height: 50px; color: #CCCCCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                    <!-- <a href="https://soundcloud.com/chris-kukla-293309559" title="Evoked Response" target="_blank" style="color: #CCCCCC; text-decoration: none;">
-                      Evoked Response
-                    </a>  -->
                     <a href="https://soundcloud.com/chris-kukla-293309559/evoked-response-deep-sleep/s-twCY1IdiARO" title="Evoked Response Deep Sleep" target="_blank" style="color: #CCCCCC; text-decoration: none;">
                        Deep Sleep(60min)
                     </a>
@@ -762,7 +796,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   <div class="story-holder science-section js-scroll fade-in-bottom">
     <div class="container">
       <div class="row">

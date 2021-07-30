@@ -41,14 +41,14 @@ $(".tryOurMusic-button").click(function () {
     1000
   );
 });
-$(".calendly-weigit-button").click(function () {
-  $("html, body").animate(
-    {
-      scrollTop: $("#calendly-holder").offset().top - 100,
-    },
-    1000
-  );
-});
+// $(".calendly-weigit-button").click(function () {
+//   $("html, body").animate(
+//     {
+//       scrollTop: $("#calendly-holder").offset().top - 100,
+//     },
+//     1000
+//   );
+// });
 const scrollElements = document.querySelectorAll(".js-scroll");
 
 const elementInView = (el, dividend = 1) => {
