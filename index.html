@@ -104,15 +104,19 @@
       </div>
     </div>
   </header>
+  <!-- get in touch bottom click would triger form-popup-->
   <div class="calendly-weigit-box" >
      <button class="btn banner-btn calendly-weigit-button" onclick="openForm()">Get in touch</button>
   </div>
   <div class="form-popup" id="myForm">
     <div class="container form-container">
-      <div class="features-heading heading text-center">
-        <h1>Get in touch to learn more</h1>
+      <div style="width:100%;float:right;" >
+         <div class="round-btn" onclick="closeForm()"><span class="btn">X</span></div>
       </div>
-      <div class="features-contents">
+      <div class="features-heading heading text-center">
+        <h1>GET IN TOUCH</h1> 
+      </div>
+      <div class="features-contents  text-center">
         <div class="features-wrap">
           <div class="row">
 
@@ -132,7 +136,8 @@
                     required>
                 </div>
                 <button type="submit" class="btn banner-btn" onclick="closeForm()">Submit</button>
-                <button class="btn banner-btn" onclick="closeForm()">Close</button>
+                
+                <!-- <button class="btn banner-btn" onclick="closeForm()">Close</button> -->
               </form>
             </div>
 

@@ -18,7 +18,7 @@ body {
   position:fixed !important;
   width:100%;
   margin-top:10px;
-  bottom:30px;
+  bottom:33px;
   padding-top:0;
   padding-bottom:0;
   z-index:100;
@@ -34,15 +34,19 @@ body {
 .form-popup {
   display:none;
   position:fixed;
-  top: 100px;
-  margin-left:20vw;
-  width:60%;
+  bottom:30px;
+  margin-right:0px;
+  width:100%;
+  padding:0px;
+  z-index: 200;
+}
+.form-container{
   border: 3px solid #f1f1f1;
-  padding:40px;
-  z-index: 1000;
+  width:20%;
+  float:right;
+  padding-top:20px;
   background-color: white;
 }
- 
 /*******MAIN MENU*********/
 .mainmenu .navbar {
   padding: 0px;
@@ -67,6 +71,19 @@ body {
 }
 .nav-item.login-butn {
   margin-top: 0px !important;
+}
+.round-btn {
+  height: 40px;
+  line-height: 34px;  
+  width: 40px;  
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color:#ededed;// #fd3470
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  float:right
 }
 .btn.login-btn:hover {
   background-color: #fff;
@@ -460,12 +477,16 @@ body {
 
 /*RESPONSIVE*/
 @media screen and (min-width: 1023px) {
+ 
   .science-section {
     padding-top:6rem;
   }
 }
 
 @media screen and (max-width: 1270px) {
+  .form-container {
+    width:30vw;
+  }
   .navbar-brand {
     width: 200px;
   }
@@ -558,6 +579,9 @@ body {
 }
 
 @media screen and (max-width: 1023px) {
+  .form-container {
+    width:40vw;
+  }
   .navbar-brand {
     display:block;
     width: 150px;
@@ -629,7 +653,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-
+  .form-container {
+    width:100vw;
+  }
   .header-top {
   }
   .login-butn {
@@ -715,12 +741,12 @@ body {
 
 form {
   margin-top: 10px;
-  margin-bottom: 30px;
+  //margin-bottom: 60px;
 }
 
 .form {
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 
 .form-control:focus {
@@ -751,6 +777,7 @@ input {
   height: 50px;
 }
 @media screen and (max-width: 414px) {
+ 
   .header-bottom .banner-wrap {
     top: 10%;
   }
@@ -768,6 +795,7 @@ input {
   }
 }
 @media screen and (max-width: 360px) {
+ 
   .carousel-control-prev{
     display: none
   }
@@ -821,3 +849,4 @@ input {
         opacity: 1;
     }
 }
+
