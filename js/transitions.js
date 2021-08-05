@@ -41,6 +41,15 @@ $(".tryOurMusic-button").click(function () {
     1000
   );
 });
+
+$('.calendly-weigit-button').hide();
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y >= 1200) {
+    $('.calendly-weigit-button').fadeIn();
+  }  
+});
+
 // $(".calendly-weigit-button").click(function () {
 //   $("html, body").animate(
 //     {
