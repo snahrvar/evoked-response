@@ -6,6 +6,9 @@ body {
   height: 100%; 
   overflow-x: hidden;
 }
+p{
+  font-size: 20px;
+}
 .header-top {
   position:fixed !important;
   background-color:white;
@@ -59,7 +62,6 @@ body {
 }
 .mainmenu li.nav-item a.nav-link {
   font-size: 16px;
-  font-weight: 700;
   color: #000000;
   padding: 0px;
   text-transform: uppercase;
@@ -90,7 +92,7 @@ body {
   color: #fd3470;
 }
 .btn.login-btn {
-  font-size: 17px;
+  font-size: 20px;
   color: #fff;
   font-weight: 700;
   background-color: #fd3470;
@@ -109,7 +111,7 @@ body {
 }
 .header-bottom .banner-wrap {
   position: absolute;
-  top: 30%;
+  top: 20%;
   right: 0;
   left: 0;
 }
@@ -118,17 +120,17 @@ body {
   padding-top:50px;
 }
 .header-bottom .banner-contents h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-family: "Rubik";
-  font-weight: 700;
   color: #000;
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 .header-bottom .banner-contents p {
-  font-size: 16px;
+  font-size: 20px;
   color: #626262;
   margin: 10px 0px;
+  margin-right:50px;
 }
 .btn.banner-btn:hover {
   background-color: #fff;
@@ -136,7 +138,6 @@ body {
 }
 .btn.banner-btn {
   background-color: #fd3470;
-  font-weight: 700;
   font-size: 16px;
   color: #fff;
   border-radius: 50px;
@@ -160,7 +161,7 @@ body {
   padding: 70px 0px;
 }
 .applications-heading p {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   color: #000;
   text-transform: uppercase;
@@ -231,7 +232,7 @@ body {
   background-color: #38e0c4;
 }
 .applications-box p {
-  font-size: 17px;
+  font-size: 20px;
   color: #626262;
   margin: 20px 0px;
 }
@@ -239,12 +240,12 @@ body {
   padding: 80px 0px;
 }
 .science-content {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .science-content ul li {
   margin-left: 20px;
-  font-size: 17px;
+  font-size: 20px;
   color: #000000;
   padding: 0px 0px 30px 30px;
   background-image: url("img/icons/list-arrow.png");
@@ -253,7 +254,7 @@ body {
 }
 
 .story-contents ul li {
-  font-size: 17px;
+  font-size: 20px;
   color: #000000;
   padding: 0px 0px 30px 30px;
   background-image: url("img/icons/list-arrow.png");
@@ -263,14 +264,14 @@ body {
 
 .story-contents {
   padding-top: 40px;
-  font-size: 17px;
+  font-size: 20px;
 }
 .adams-accomplishments p {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .testimonialImage {
-  width: 120px;
+  width: 200px;
 }
 .mohitImage {
   width: 150px;
@@ -287,47 +288,66 @@ body {
   width: auto;
 }
 .testimonial {
-  line-height: 26px;
+  line-height: 32px;
   text-align: left;
 }
 #morescience {
   margin: 0 auto;
 }
 
+.picture-container{
+  display:flex;
+  justify-content: center;
+}
+
+.team-picture {
+  width:60%;
+  border-radius: 50%;
+}
+
+.team-title {
+  padding-top:30px;
+  text-align:center;
+}
+
 .sciencetitle {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 #title {
   padding-bottom: 50px;
 }
-.features-holder {
-  padding: 50px 0px;
-}
+
 .features-contents {
   margin-top: 25px;
 }
+#brainwave-holder {
+  background-image: url("./img/banner/side.jpg");
+  background-size: cover;
+  padding-bottom: 60px;
+}
 .features-wrap {
-  margin: 40px 0px;
+  margin-top: 40px;
 }
 .features-details {
-  margin-top: 60px;
+  width: 50%;
+  display:block;
+  margin: 30px auto;
+  margin-bottom: 0;
 }
 .features-details span {
   font-size: 65px;
   font-family: "Rubik";
-  font-weight: 700;
   color: grey;
-  display: block;
   line-height: 1;
+  margin-top:-10px;
 }
 .features-details img {
-  margin: 20px 0px;
+  padding-bottom:20px;
+  padding-right: 20px;
 }
 .features-details p {
-  font-size: 17px;
+  font-size: 20px;
   color: #000000;
-  font-weight: 700;
-  text-transform: uppercase;
   margin: 0px;
   line-height: 1.9;
 }
@@ -337,6 +357,10 @@ body {
   color: #fff;
   line-height: 30px;
   bottom:0;
+}
+
+.footer p {
+  font-size: 15px;
 }
 
 .footer h3 h5 {
@@ -394,7 +418,7 @@ body {
   margin: auto;
 }
 .foot-common h5 {
-  font-size: 17px;
+  font-size: 20px;
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -403,7 +427,7 @@ body {
   margin-bottom: 7px;
 }
 .foot-common ul li a {
-  font-size: 17px;
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
 }
@@ -420,7 +444,7 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 .carousel-inner{
-  height: 280px;
+  height: 350px;
 }
 .carousel-item {
   //padding-bottom:50px;
@@ -450,7 +474,7 @@ body {
 
 .modal-body ul li {
   margin-left: 20px;
-  font-size: 17px;
+  font-size: 20px;
   color: #000000;
   padding: 0px 0px 30px 30px;
   background-image: url("img/icons/list-arrow.png");
@@ -502,12 +526,10 @@ body {
   }
   .header-bottom .banner-contents {
     width: 450px;
+    padding-right:25px;
   }
   .header-bottom .banner-contents h1 {
     font-size: 25px;
-  }
-  .header-bottom .banner-contents p {
-    font-size: 12px;
   }
   .btn.banner-btn {
     font-size: 12px;
@@ -536,7 +558,7 @@ body {
     border: 4px solid #fff;
   }
   .applications-box p {
-    font-size: 14px;
+    font-size: 20px;
     margin: 10px 0px;
   }
 
@@ -559,7 +581,7 @@ body {
     padding: 20px 0px;
   }
   .features-wrap {
-    margin: 40px 0px;
+    margin-top: 40px;
   }
   .features-details span {
     font-size: 50px;
@@ -635,7 +657,7 @@ body {
     margin-bottom: 20px;
   }
   .features-wrap {
-    margin: 40px 0px;
+    margin-top: 40px;
   }
   .features-details {
     margin-top: 10px;
@@ -655,8 +677,6 @@ body {
 @media screen and (max-width: 767px) {
   .form-container {
     width:100vw;
-  }
-  .header-top {
   }
   .login-butn {
     margin-top: 0px !important;
@@ -711,7 +731,7 @@ body {
     margin: 30px auto;
   }
   .features-wrap {
-    margin: 40px 0px;
+    margin-top: 40px;
     text-align: center;
   }
   .features-details {
@@ -741,7 +761,6 @@ body {
 
 form {
   margin-top: 10px;
-  //margin-bottom: 60px;
 }
 
 .form {
@@ -766,16 +785,36 @@ form {
   padding-bottom: 80px;
 }
 
+#tryOurMusic-holder {
+  background-color:#F0F8FF;
+}
+
 .testimonial-section {
+  margin-top: 100px;
   padding-top: 0px;
   padding-bottom: 0px;
+  background-color: #F0F8FF;
 }
-.contact-section {
-  background-color: #ededed;
+
+.underline {
+  text-decoration: underline;
+}
+
+.ribbon-section {
+  height:400px;
+  background-image: url("./img/banner/small-banner.jpg");
+  background-size: cover;
+  margin-bottom: 80px;
 }
 input {
   height: 50px;
 }
+@media screen and (min-width: 1600px){
+  .ribbon-section {
+    height: 500px;
+  }
+}
+
 @media screen and (max-width: 414px) {
  
   .header-bottom .banner-wrap {
