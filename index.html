@@ -93,20 +93,22 @@
       </div>
     </div>
     <div class="header-bottom" style="width:100%">
-      <img src="img/banner/banner2.jpg" class="img-fluid js-scroll fade-in-bottom" alt="banner" style="width:100% !important" />
+      <img src="img/banner/banner2.jpg" class="banner-large img-fluid js-scroll fade-in-bottom" alt="banner" style="width:100% !important;" />
+      <img src="img/banner/banner2-fade.png" class="banner-small img-fluid js-scroll fade-in-bottom" alt="banner" style="width:100% !important;" />
       <div class="banner-wrap">
         <div class="container">
-          <div class="banner-contents js-scroll fade-in-bottom" style="width:50%;padding-top:2rem; float: left;">
-            <h1>The new frontier of music and the brain</h1>
-            <p>
-              Combining neuroscience with audio, we create music to have an impact on your mental state. Try it, learn
-              more, and feel the difference.
-            </p>
-            <a href="#" class="btn banner-btn application-button"> Learn More <i
-                class="fa fa-arrow-circle-down"></i></a>
-          </div>
-          <div style = "width: 50%; padding-top:2rem; float:right" class = "js-scroll fade-in-bottom">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BH5DJSrR6QI?controls=0" title="Evoked Response Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-md-6 banner-contents js-scroll fade-in-bottom">
+              <h1>The new frontier of music and the brain</h1>
+              <p>
+                Combining neuroscience with audio, we create music that impacts your mental state.
+              </p>
+              <a href="#" class="btn banner-btn application-button learn-more"> Learn More <i
+                  class="fa fa-arrow-circle-down"></i></a>
+            </div>
+            <div class="col-md-6 js-scroll fade-in-bottom video-container">
+              <iframe src="https://www.youtube.com/embed/BH5DJSrR6QI?controls=0" title="Evoked Response Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -323,7 +325,7 @@
             </div>
 
             <div class="story-img heading text-center js-scroll fade-in-bottom" style = "margin-top: 75px">
-              <h4 class="sciencetitle underline">Scientifically Verified Results</h4>
+              <h4 class="sciencetitle">Scientifically Verified Results</h4>
             </div>
 
             <div class="story-contents js-scroll fade-in-bottom">
@@ -371,12 +373,14 @@
                   </ul>
                 </div>  
                 
-                <div class="col-md-12">
-                  <iframe style = "display: block; margin: 0 auto; margin-bottom: 30px" width="560" height="315" src="https://www.youtube.com/embed/dnjvTdVgHkk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-md-6 offset-md-3 video-container">
+                  <iframe src="https://www.youtube.com/embed/dnjvTdVgHkk?controls=0" max-width="600" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> 
+                <div class="col-md-3"></div>
 
-                <a id="morescience" href="science.html" class="btn banner-btn application-button"> More Science<i
-                  class="fa fa-arrow-circle-right"></i></a>
+                <a id="morescience" href="science.html" class="btn banner-btn application-button"> 
+                  More Science<i class="fa fa-arrow-circle-right"></i>
+                </a>
 
               </div>
               
@@ -747,13 +751,13 @@
     <div class="footer">
         <div class="container">
         <div class="row">
-          <div class='col-md-3'>
+          <div class='col-md-3 col-12 footer-logo'>
             <!-- <h3>Evoked Response</h3> -->
             <img src="img/footer-logo.png" class="img-fluid" alt="logo" style="width:70%;"/>
             <br><br/>
             <p>THE NEW FRONTIER OF MUSIC AND THE BRAIN</p>
           </div>
-          <div class='col-md-2'>
+          <div class='col-md-2 footer-menu'>
             <h5 >Explore</h5>
             <ul class="footer-link-list">
               <li class="nav-item application-button"><a class="footer-link" href="#">Applications</a></li>
@@ -763,14 +767,14 @@
               <li class="nav-item tryOurMusic-button"><a class="footer-link" href="#">Try Our music</a></li>
             </ul>
           </div>
-          <div class='col-md-3'>
+          <div class='col-md-3 col-6'>
             <h5>Visit</h5>
             <p>3130 North Lake Shore Dr. Chicago, IL 60657</p>
             <h5>New Business</h5>
             <p>info@evokedresponse.com</p>
             <p>1-888-345-0670</p>
           </div>
-          <div class='col-md-2'>
+          <div class='col-md-2 col-3'>
             <h5>Follow</h5>
             <ul class="footer-link-list">
               <li><a class="footer-link" href="https://www.linkedin.com/company/evokedresponse" target="_blank">LinkedIn</a></li>
@@ -778,7 +782,7 @@
               <li><a class="footer-link" href="https://www.instagram.com/evokedresponse/" target="_blank">Instagram</a></li>
             </ul>
           </div>
-          <div class='col-md-2'>
+          <div class='col-md-2 col-3'>
             <h5>Legal</h5>
             <ul class="footer-link-list">
               <li><a class="footer-link" href="./documents/Website Terms of Use.pdf"  download target="_blank">Terms of Use</a></li>
